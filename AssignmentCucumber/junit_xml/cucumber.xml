@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="64.60706">
+<testcase classname="OrangeHRM Application" name="Validate text job title" time="24.833529">
+<system-out><![CDATA[Given I am in OrangeHRP Application.........................................passed
+Then Login to Application...................................................passed
+Given I click on Admin Link.................................................passed
+Then Click on Job...........................................................passed
+And validate text Job Title.................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="OrangeHRM Application" name="Validate text Employee list" time="19.851097">
+<system-out><![CDATA[Given I am in OrangeHRP Application.........................................passed
+Then Login to Application...................................................passed
+Given I click on PIM........................................................passed
+Then I click on Employee List...............................................passed
+And Validate text Employee list.............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="OrangeHRM Application" name="Validate Employee name Linda" time="19.922434">
+<system-out><![CDATA[Given I am in OrangeHRP Application.........................................passed
+Then Login to Application...................................................passed
+Given I click on PIM........................................................passed
+Then I Enter Employee Name Lindain Search box...............................passed
+And I click on search button................................................passed
+Then Validate Employee Name.................................................passed
+]]></system-out>
+</testcase>
+</testsuite>

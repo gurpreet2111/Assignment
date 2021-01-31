@@ -1,0 +1,316 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "I am logged into Orange Application.",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 17147447200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am in OrangeHRP Application",
+            "match": {
+              "location": "stepDefinations.i_am_in_OrangeHRP_Application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5281340300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Login to Application",
+            "match": {
+              "location": "stepDefinations.login_to_Application()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 13,
+        "name": "Validate text job title",
+        "description": "",
+        "id": "orangehrm-application;validate-text-job-title",
+        "after": [
+          {
+            "result": {
+              "duration": 309448700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinations.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1827080600,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I click on Admin Link",
+            "match": {
+              "location": "stepDefinations.i_click_on_Admin_Link()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 201925300,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Click on Job",
+            "match": {
+              "location": "stepDefinations.click_on_Job()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 66287300,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "validate text Job Title",
+            "match": {
+              "location": "stepDefinations.validate_text_Job_Title()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 12,
+            "name": "@RegressionTest"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "I am logged into Orange Application.",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 10945700700,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am in OrangeHRP Application",
+            "match": {
+              "location": "stepDefinations.i_am_in_OrangeHRP_Application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5045745100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Login to Application",
+            "match": {
+              "location": "stepDefinations.login_to_Application()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 19,
+        "name": "Validate text Employee list",
+        "description": "",
+        "id": "orangehrm-application;validate-text-employee-list",
+        "after": [
+          {
+            "result": {
+              "duration": 141487600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinations.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2503928000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I click on PIM",
+            "match": {
+              "location": "stepDefinations.i_click_on_PIM()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1174902000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I click on Employee List",
+            "match": {
+              "location": "stepDefinations.i_click_on_Employee_List()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 39333500,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "Validate text Employee list",
+            "match": {
+              "location": "stepDefinations.validate_text_Employee_list()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 18,
+            "name": "@RegressionTest"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "I am logged into Orange Application.",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 10814346600,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am in OrangeHRP Application",
+            "match": {
+              "location": "stepDefinations.i_am_in_OrangeHRP_Application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5665255900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Login to Application",
+            "match": {
+              "location": "stepDefinations.login_to_Application()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 25,
+        "name": "Validate Employee name Linda",
+        "description": "",
+        "id": "orangehrm-application;validate-employee-name-linda",
+        "after": [
+          {
+            "result": {
+              "duration": 97553400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinations.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2148593400,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "I click on PIM",
+            "match": {
+              "location": "stepDefinations.i_click_on_PIM()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 183227700,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "I Enter Employee Name Lindain Search box",
+            "match": {
+              "location": "stepDefinations.i_Enter_Employee_Name_Lindain_Search_box()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 808174700,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "I click on search button",
+            "match": {
+              "location": "stepDefinations.i_click_on_search_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 205282100,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "Validate Employee Name",
+            "match": {
+              "location": "stepDefinations.validate_Employee_Name()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 24,
+            "name": "@SmokeTest,"
+          },
+          {
+            "line": 24,
+            "name": "@RegressionTest"
+          }
+        ]
+      }
+    ],
+    "name": "OrangeHRM Application",
+    "description": "",
+    "id": "orangehrm-application",
+    "keyword": "Feature",
+    "uri": "C:/Users/Lenovo/workspace/CucumberAssignment/src/test/java/Features/test.feature"
+  }
+]
